@@ -3,8 +3,17 @@ venv/
 .env
 *.env
 
-# Archivos .csv alojados en la carpeta data
-data/*.csv
+# Data files
+*.json
+*.csv
+
+# Ignore the dataset files
+data/london_airbnb.csv
+data/madrid_airbnb.csv
+data/milan_airbnb.csv
+data/NY_airbnb.csv
+data/sydney_airbnb.csv
+data/tokyo_airbnb.csv
 
 # Archivos de configuración específicos del entorno
 *.local
